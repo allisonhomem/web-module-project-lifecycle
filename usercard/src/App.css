@@ -1,0 +1,53 @@
+
+.App-header {
+  background-color: #22223B;
+  min-height: 10vh;
+  padding-left: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+  color: #C9ADA7;
+  text-shadow: 3px 3px #4A4E69;
+}
+
+
+.card_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  border: 2px solid #9A8C98;
+  height: 40vh;
+  width: 45%;
+  margin: 3% 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  height: 100%;
+  width: 49%;
+  object-fit: contain;
+}
+
+.card_info {
+  height: 100%;
+  width: 49%;
+  padding-left: 2%;
+  font-size: .8rem;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #22223B;
+}
+
